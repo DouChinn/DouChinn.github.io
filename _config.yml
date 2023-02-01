@@ -1,0 +1,173 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Rong Liu
+title: Master Student in Artificial Intelligence
+affiliation: University of Southern California
+email: rliu8691@usc.edu
+# email_title: Email (Email title override)
+phone: (213)519-8268
+# phone_title: Phone (Phone title override)
+# website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+# twitter_username: jekyllrb
+github_username:  RongLiu-Leo
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: rong-liu-34a3b4251
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+googlescholar_username: MrWUyWkAAAAJ
+
+
+
+
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  I am a first-year Master student in AI specialization with a strong interest in the field of Computer Vision, Deep Learning, and Generative AI.
+
+# Prior to studying at USC, I was working with [Liangtian Wan](http://faculty.dlut.edu.cn/wanliangtian/en/index.htm) at DUT Alpha Lab.
+
+
+content:
+
+  - title: Publication
+    layout: image
+    content:
+      - title: 'UAV swarm based radar signal sorting via multi-source data fusion: A deep transfer learning framework'
+        image: images/UAV.jpg
+        caption: Liangtian Wan, Rong Liu, Lu Sun, Hansong Nie, Xianpeng Wang
+        description: |
+          Information Fusion. 78 (2022): 90-101
+
+          [Paper](https://www.sciencedirect.com/science/article/pii/S1566253521001834) | 
+          [Patent](https://patentscope.wipo.int/search/en/detail.jsf?docPN=CN113030958)
+
+
+  - title: Project # Title for the section
+    layout: image # Type of content section (list/text)
+    content:
+      - title: Store Sales - Time Series Forecasting
+        image: images/comparison.png
+        description: | # this will include new lines to allow paragraphs
+          The fundamental goal of this project is to forecast sales for a company in Ecuador, Corporación Favorita, using time series data, which covers 54 stores with 33 product families, spanning from 2013-01-01 to 2017-08-15. 
+          To achieve this goal, the project employs Darts to process the data and perform exploratory data analysis. 
+          After setting the Exponential Smoothing baseline model and boosting it using ensemble methods, the LightGBM algorithm showed the best performance. 
+          Additionally, the project used model stacking, quadratic fitting, and genetic mutation algorithm to further optimize the forecast, resulting in a top 5 ranking on the leaderboard.
+          
+          [Kaggle Competition](https://www.kaggle.com/competitions/store-sales-time-series-forecasting) |
+          [Report](https://drive.google.com/file/d/1qFx3XvNh6RqaNpol3grpwS9sHMt-dqp4/view?usp=share_link)
+
+      - title: Video Style Transfer
+        image: images/video_style_transfer/output2.gif
+
+        description: | 
+          This CSCI 590 Directed Research project, which is supervised by Professor [Scott Easley](https://viterbi.usc.edu/directory/faculty/Easley/Scott), aims to develop a pipeline that produces cost-effective, professional-looking cinematic imagery by transferring the style of a given image into a video.
+          
+          [Code](https://github.com/RongLiu-Leo/Video-Style-Transfer)
+          
+      - title: 'Undergraduate Thesis: A Radar Signal Sorting and Locating Approach Based on UAV Swarm via Distributed Algorithm'
+        image: images/SDSL.jpg
+        description: |
+          Traditional statistical machine learning methods rely on Pulse Descriptor Word (PDW) as a feature for sorting and locating radar signals. However, these traditional methods fall short in achieving simultaneous sort and location. The accuracy in sorting and locating is difficult to improve due to the fixed and limited representation of structured PDW data. To address these issues, we propose a framework called radar signal simultaneous distributed sort and location (SDSL).
+          As part of the SDSL framework, we are using a machine learning model called PP-YOLOE, which performed better than other methods in testing. We are also working on making this model more efficient for use on individual UAVs and using the capabilities of the UAV swarm to make the overall process more efficient.
+          
+          [Paper](https://drive.google.com/file/d/1IYW9wRDdkEo4-1dHkRbMPGiNYkRpQtZp/view?usp=sharing) | 
+          [Poster](https://drive.google.com/file/d/1ytKVfacSBbT3S-fbs4zV-3l5Tw0k-SX3/view?usp=sharing) | 
+          [Patent](https://patentscope.wipo.int/search/en/detail.jsf?docId=CN382200924&_cid=P11-LCPZZ4-10268-1)
+
+  - title: Experience
+    layout: list
+    content:
+      - title: Teaching Assistant
+        sub_title: Dalian University of Technology
+        caption: September 2021 - June 2022
+        layout: top
+        description: |
+          During my undergraduate studies at Dalian University of Technology, I had the opportunity to serve as a teaching assistant for two courses: 
+          **Program Design Basics and C Programming** and **Object-Oriented Method and C++ Program Design**. 
+          In this role, I was responsible for holding office hours to assist students with their questions, as well as grading assignments and exams. 
+          I value the experiences that have allowed me to contribute to the academic success of my peers.
+      
+      - title: Research Assistant
+        sub_title: Dalian University of Technology
+        caption: July 2020 - July 2022
+        layout: top
+        description: |
+          I am fortunate enough to have had the opportunity to join the Alpha Lab at DUT and be supervised by Professor [Liangtian Wan](http://faculty.dlut.edu.cn/wanliangtian/en/index.htm). In this lab, I am primarily responsible for utilizing objective detection methods to address problems related to radar signal sorting.
+          In the past two years, I have had the pleasure of collaborating closely with my supervisor and have achieved many accomplishments as a result. We have published one paper, obtained two patents, and received an award for an outstanding undergraduate thesis.        
+      - title: Self Learner
+        sub_title: Coursera
+        caption: August 2021 - Present
+        layout: top
+        description: |
+          [Machine Learning](https://coursera.org/share/8197719d9771604ff45a12ea0ab80f4f) provided by Stanford Online
+          
+          Deep Learning Specialization provided by DeepLearning.AI:
+
+          - [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization](https://coursera.org/share/c9631e34c978f9ccf608c1588220827a)
+          
+          - [Neural Networks and Deep Learning](https://coursera.org/share/745ad08dcb8450f85de6637dd72d970b)
+
+  - title: Awards
+    layout: text
+    content: |
+      Outstanding Undergraduate Thesis
+      
+      Meritorious Winner in Mathematical Contest in Modeling
+      
+      First Prize in the National Artificial Intelligence Knowledge Competition for College Students
+  
+
+  - title: When I take a break from AI
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Video games: I am a big fan of strategy games
+        - League of Legends (LOL) - highest rank: Platinum
+        - Teamfight Tactics (TFT) - highest rank: Diamond
+        - Red Alert 2
+
+      Basketball: I was a member of basketball team of DUT Software Engineering Department 
+
+      Travel: I love to experience different cultures, landscapes, and **delicious food**
+
+
+
+
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
